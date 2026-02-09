@@ -13,7 +13,7 @@ st.set_page_config(
 # --- Carregamento dos dados ---
 @st.cache_data
 def load_data():
-    url = "https://raw.githubusercontent.com/FabianaLancellotti/Imersao-dados-python/main/dados-imersao-final.csv"
+    url = "https://raw.githubusercontent.com/FabianaLancellotti/Imersao-python/main/dados-imersao-final.csv"
     df = pd.read_csv(url)
     
     # 1. Garante que 'usd' seja numérico (remove caracteres não numéricos se houver)
@@ -162,4 +162,5 @@ with col_graf4:
 
 # --- Tabela de Dados Detalhados ---
 st.subheader("Dados Detalhados")
+
 st.dataframe(df_filtrado)
