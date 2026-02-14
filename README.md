@@ -26,7 +26,7 @@ Dashboard interativo desenvolvido em Python para análise e visualização de sa
 - O dashboard será aberto automaticamente no seu navegador padrão.
 
 📷 Preview
-![Dashboard1](/screenshots/dashboar1.png) 
+![Dashboard1](/screenshots/dashboard1.png) 
 ![Dashboard2](/screenshots/dashboard2.png)
 
 👩‍💻 Autora
